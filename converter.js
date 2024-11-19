@@ -61,9 +61,11 @@ async function downloadMp3WithPopup(youtubeUrls) {
 }
 
 // Usage
-const youtubeUrl = [
-  "https://www.youtube.com/watch?v=aRE1XDVLDlU",
-  "https://www.youtube.com/watch?v=Kf6MsltI7lQ",
-  "https://www.youtube.com/watch?v=AvNLHtpEUo0",
-]; // Replace with your YouTube video URL
-downloadMp3WithPopup(youtubeUrl);
+// const youtubeUrl = [
+//   "https://www.youtube.com/watch?v=aRE1XDVLDlU",
+//   "https://www.youtube.com/watch?v=Kf6MsltI7lQ",
+//   "https://www.youtube.com/watch?v=AvNLHtpEUo0",
+// ]; // Replace with your YouTube video URL
+// downloadMp3WithPopup(youtubeUrl);
+
+export default downloadMp3WithPopup;
